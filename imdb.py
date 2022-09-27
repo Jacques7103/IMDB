@@ -44,7 +44,4 @@ for season in range(5):
         print(f"Description : {description}\n")
         
 df = pd.DataFrame(list, columns = ['Season', 'Episode', 'Title', 'Airdate', 'Rating', 'Votes', 'Description'])
-print(list[0])
-print(df.head())
-
 df.to_csv('money_heist.csv', index=False)
